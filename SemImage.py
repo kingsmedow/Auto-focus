@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 try:
     import cupy
 except:
-    #import numpy
+    import numpy
 
   
     cupy = None
