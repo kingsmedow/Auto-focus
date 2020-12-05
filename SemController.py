@@ -11,7 +11,8 @@
 
 import tempfile
 from PIL import Image
-from win32com import client
+from win32com import client  ####add some text
+
 
 class SemController:
 
