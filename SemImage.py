@@ -8,10 +8,7 @@ try:
 except:
     #import numpy
 
-    import accelerated_numpy
-    #accelerated_numpy.initialize()
-    
-
+  
     cupy = None
     print('SemImage: could not import cupy, GPU acceleration will be disabled.')
 
